@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  color: #666;
+}
+
+.container {
+  width: 100%;
+}
+
+header, footer {
+    min-height: 50px;
+    height: auto;
+    background: #000000;
+    padding: 15px;
+    color: white;
+}
+
+.wrapper {
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.column {
+ background: linear-gradient(to bottom, #f0f2f0, #000c40);
+  padding: 10px;
+  width: 30%;
+  min-height: 500px;
+  margin: 20px 0;
+  color: #000000;
+
+}
+
+.title:hover{
+    color:#171d7d;
+}
+
